@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -z "$(sudo which aria2)" ]; then sudo apt update -y && sudo apt install aria2 -y; fi
+if [ -z "$(sudo which aria2c)" ]; then sudo apt update -y && sudo apt install aria2 -y; fi
 
 # 配置 对 aria2 进行配置
 
