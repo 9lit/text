@@ -7,6 +7,8 @@ if [ -z "$(sudo which aria2)" ]; then sudo apt update -y && sudo apt install ari
 sudo mkdir /etc/aria2/ 
 ## 创建 aria2 下载目录
 sudo mkdir /etc/aria2/download/
+
+if [ -z "$(sudo which git)" ]; then sudo apt update -y && sudo apt install git -y; fi
 ## 拉取配置文件
 sudo git clone git@github.com:xiongJum/aria2.conf.git /etc/aria2
 
