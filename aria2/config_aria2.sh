@@ -24,8 +24,9 @@ sudo bash -c "echo -e '$service' > /usr/lib/systemd/system/aria2.service" && sud
 
 
 # 使用 nginx 进行代理 aria rpc 服务
-read -t 5 -ep "是否使用 nginx 代理 aria2(y/N)" flag
-if [ "${flag,,}" = y ]; then
+# read -t 5 -ep "是否使用 nginx 代理 aria2(y/N)" flag
+flag=$1
+if [ "${flag,,}" = nginx ]; then
   ## 对 aria2 进行反代理
   if [ -z "$(sudo which nginx)" ]; then sudo apt install nginx -y; fi
   ## 设置 nginx 代理 配置
@@ -42,7 +43,7 @@ else
 if [ -n "$(sudo which ufw)" ]; then 
   ## 放行 DHT 和 UDP tracker 监听端口
   sudo ufw allow 51413/tcp && sudo ufw allow 51413/udp
-  if [ "${flag,,}" = y ]; then 
+  if [ "${flag,,}" = nginx ]; then 
     # 开放 nginx 代理端口
     sudo ufw allow 2053/tcp && sudo ufw deny 6800/tcp
   else 
