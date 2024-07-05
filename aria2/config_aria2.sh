@@ -6,7 +6,7 @@ if [ -z "$(sudo which aria2)" ]; then sudo apt update -y && sudo apt install ari
 
 if [ -z "$(sudo which git)" ]; then sudo apt update -y && sudo apt install git -y; fi
 ## 拉取配置文件
-sudo rm -rf /etc/aria2/ && sudo git clone git@github.com:xiongJum/aria2.conf.git /etc/aria2
+sudo rm -rf /etc/aria2/ && sudo git clone https://github.com/xiongJum/aria2.conf.git /etc/aria2
 
 ## 赋予可执行权限
 cd /etc/aria2 && sudo chmod +x delete.sh scrape.sh upload.sh
