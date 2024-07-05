@@ -15,11 +15,9 @@ cd /etc/aria2 && sudo chmod +x delete.sh scrape.sh upload.sh
 
 service="[Unit]
 > Description=Aria2 Service
-> After=network.target
-> 
+> After=network.target \n
 > [Service]
-> ExecStart=/usr/bin/aria2c --conf-path=/etc/aria2/aria2.conf
-> 
+> ExecStart=/usr/bin/aria2c --conf-path=/etc/aria2/aria2.conf \n
 > [Install]
 > WantedBy=default.target"
 
