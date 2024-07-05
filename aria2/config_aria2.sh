@@ -3,17 +3,13 @@
 if [ -z "$(sudo which aria2)" ]; then sudo apt update -y && sudo apt install aria2 -y; fi
 
 # 配置 对 aria2 进行配置
-## 创建 aria2 配置文件目录
-sudo mkdir /etc/aria2/ 
-## 创建 aria2 下载目录
-sudo mkdir /etc/aria2/download/
 
 if [ -z "$(sudo which git)" ]; then sudo apt update -y && sudo apt install git -y; fi
 ## 拉取配置文件
-sudo git clone git@github.com:xiongJum/aria2.conf.git /etc/aria2
+sudo rm -rf /etc/aria2/ && sudo git clone git@github.com:xiongJum/aria2.conf.git /etc/aria2
 
-cd /etc/aria2
-sudo chmod +x delete.sh scrape.sh upload.sh
+## 赋予可执行权限
+cd /etc/aria2 && sudo chmod +x delete.sh scrape.sh upload.sh
 
 echo "是否使用 nginx 代理 aria2(y/N)"
 read -r flag
