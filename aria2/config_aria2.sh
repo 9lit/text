@@ -8,6 +8,9 @@ if [ -z "$(sudo which git)" ]; then sudo apt update -y && sudo apt install git -
 ## 拉取配置文件
 sudo rm -rf /etc/aria2/ && sudo git clone https://github.com/xiongJum/aria2.conf.git /etc/aria2
 
+## 创建保存文件夹 和 会话文件
+sudo mkdir /etc/aria2/download/ && sudo touch /etc/aria2/aria2.session 
+
 ## 赋予可执行权限
 cd /etc/aria2 && sudo chmod +x delete.sh scrape.sh upload.sh
 
