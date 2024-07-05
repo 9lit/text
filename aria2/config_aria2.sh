@@ -13,13 +13,7 @@ cd /etc/aria2 && sudo chmod +x delete.sh scrape.sh upload.sh
 
 ## 使用 systemctl 管理服务
 
-service="[Unit]
-> Description=Aria2 Service
-> After=network.target \n
-> [Service]
-> ExecStart=/usr/bin/aria2c --conf-path=/etc/aria2/aria2.conf \n
-> [Install]
-> WantedBy=default.target"
+service="[Unit] \nDescription=Aria2 Service \nAfter=network.target \n[Service] \nExecStart=/usr/bin/aria2c --conf-path=/etc/aria2/aria2.conf \n[Install] \nWantedBy=default.target"
 
 sudo bash -c "echo $service > /usr/lib/systemd/system/aria2.service" && sudo systemctl daemon-reload
 
