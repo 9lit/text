@@ -12,8 +12,8 @@ sudo rm -rf /etc/aria2/ && sudo git clone https://github.com/xiongJum/aria2.conf
 cd /etc/aria2 && sudo chmod +x delete.sh scrape.sh upload.sh
 
 echo "是否使用 nginx 代理 aria2(y/N)"
-read -r flag
-if [ "${flag,,}" = y ]; then 0; else echo "脚本退出, 不使用nginx 进行反代理" exit 0; fi
+read -t flag
+if [ "${flag,,}" = y ]; then echo “使用 nginx 对 nginx 进行反代理”; else echo "脚本退出, 不使用nginx 进行反代理" exit 0; fi
 
 # 对 aria2 进行反代理
 if [ -z "$(sudo which nginx)" ]; then sudo apt update -y && sudo apt install nginx -y; fi
