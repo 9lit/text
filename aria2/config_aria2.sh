@@ -23,11 +23,10 @@ ExecStart=/usr/bin/aria2c --conf-path=/etc/aria2/aria2.conf
 
 [Install]
 WantedBy=default.target
-'
+
 EOF
 )
 
-## 配置 aria2 服务文件
 sudo bash -c "echo $service > /usr/lib/systemd/system/aria2.service" && sudo systemctl daemon-reload
 
 # 使用 nginx 进行代理 aria rpc 服务
