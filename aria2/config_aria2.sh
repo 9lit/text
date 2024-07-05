@@ -32,7 +32,7 @@ if [ "${flag,,}" = y ]; then
   ## 设置 nginx 代理 配置
   sudo cp /etc/aria2/nginx-aria2-config /etc/nginx/sites-available/aria2 && sudo ln /etc/nginx/sites-available/aria2 /etc/nginx/sites-enabled/aria2
   ## 关闭 原配置文件中的 rpc 远程访问权限
-  sudo sed -i "s/rpc-allow-origin-all=true/rpc-allow-origin-all=false/g" /etc/aria2/aria2.conf && sudo sed -i "s/rpc-listen-all=true/rpc-listen-all=flase/g" /etc/aria2/aria2.conf
+  sudo sed -i "s/rpc-allow-origin-all=true/rpc-allow-origin-all=false/g" /etc/aria2/aria2.conf && sudo sed -i "s/rpc-listen-all=true/rpc-listen-all=false/g" /etc/aria2/aria2.conf
   ## 重启 nginx 服务
   sudo systemctl restart nginx
 else
