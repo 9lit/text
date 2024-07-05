@@ -26,7 +26,7 @@ WantedBy=default.target
 '
 
 ## 配置 aria2 服务文件
-sudo $service > /usr/lib/systemd/system/aria2.service && sudo systemctl daemon-reload
+sudo bash -c "echo $service > /usr/lib/systemd/system/aria2.service" && sudo systemctl daemon-reload
 
 # 使用 nginx 进行代理 aria rpc 服务
 read -t 5 -ep "是否使用 nginx 代理 aria2(y/N)" flag && if [ "${flag,,}" = y ]; then echo “使用 nginx 对 nginx 进行反代理”; else echo "脚本退出, 不使用nginx 进行反代理" exit 0; fi
