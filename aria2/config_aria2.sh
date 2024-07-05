@@ -12,6 +12,7 @@ if [ -z "$(sudo which git)" ]; then sudo apt update -y && sudo apt install git -
 ## 拉取配置文件
 sudo git clone git@github.com:xiongJum/aria2.conf.git /etc/aria2
 
+cd /etc/aria2
 sudo chmod +x delete.sh scrape.sh upload.sh
 
 echo "是否使用 nginx 代理 aria2(y/N)"
