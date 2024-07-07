@@ -175,26 +175,19 @@
         "TG@ZDYZ2-爱沙尼亚🇪🇪",
         "TG@ZDYZ2-爱沙尼亚🇪🇪2",
         "TG@ZDYZ2-泰国🇹🇭",
-        "TG@ZDYZ2-泰国🇹🇭2",
-        "TG@ZDYZ2-印度🇮🇳",
-        "TG@ZDYZ2-97",
-        "TG@ZDYZ2-98",
+        "TG@ZDYZ2-95",
+        "TG@ZDYZ2-96",
         "CMCC",
-        "CMCC-100",
-        "CMCC-101",
-        "CMCC-102",
-        "CMCC-103",
-        "CMCC-104",
-        "CMCC-105",
-        "CMCC-106",
+        "CMCC-98",
+        "CMCC-99",
         "CT",
-        "CT-108",
-        "CT-109",
-        "CT-110",
-        "CT-111",
-        "CT-112",
-        "CT-113",
-        "CT-114"
+        "CT-101",
+        "CT-102",
+        "CT-103",
+        "CT-104",
+        "CT-105",
+        "CT-106",
+        "CT-107"
       ]
     },
     {
@@ -283,8 +276,8 @@
     },
     {
       "tag": "TG@ZDYZ2-KR2",
-      "server": "115.95.134.179",
-      "server_port": 30021,
+      "server": "52.78.235.190",
+      "server_port": 8443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -355,8 +348,8 @@
     },
     {
       "tag": "TG@ZDYZ2-KR5",
-      "server": "14.45.254.95",
-      "server_port": 39749,
+      "server": "59.23.158.27",
+      "server_port": 18621,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -427,8 +420,8 @@
     },
     {
       "tag": "TG@ZDYZ2-KR8",
-      "server": "3.35.124.166",
-      "server_port": 8080,
+      "server": "211.55.202.96",
+      "server_port": 33890,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -451,8 +444,8 @@
     },
     {
       "tag": "TG@ZDYZ2-KR9",
-      "server": "15.165.49.161",
-      "server_port": 8080,
+      "server": "119.203.21.31",
+      "server_port": 10443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -619,8 +612,8 @@
     },
     {
       "tag": "TG@ZDYZ2-HK-HongKong3",
-      "server": "38.180.150.193",
-      "server_port": 8443,
+      "server": "47.243.86.79",
+      "server_port": 2087,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -667,8 +660,8 @@
     },
     {
       "tag": "TG@ZDYZ2-HK-HongKong5",
-      "server": "199.15.77.208",
-      "server_port": 58793,
+      "server": "103.225.199.215",
+      "server_port": 53881,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -835,8 +828,8 @@
     },
     {
       "tag": "TG@ZDYZ2-HK-HongKong12",
-      "server": "13.229.90.43",
-      "server_port": 2086,
+      "server": "149.104.29.247",
+      "server_port": 11003,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -859,8 +852,8 @@
     },
     {
       "tag": "TG@ZDYZ2-HK-HongKong13",
-      "server": "154.12.61.139",
-      "server_port": 53570,
+      "server": "38.147.190.81",
+      "server_port": 52369,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -979,8 +972,8 @@
     },
     {
       "tag": "TG@ZDYZ2-HK-HongKong18",
-      "server": "103.207.69.114",
-      "server_port": 45109,
+      "server": "16.162.37.167",
+      "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -1243,8 +1236,8 @@
     },
     {
       "tag": "TG@ZDYZ2-JP-Tokyo5",
-      "server": "206.237.127.47",
-      "server_port": 51572,
+      "server": "13.231.236.95",
+      "server_port": 2053,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -1339,8 +1332,8 @@
     },
     {
       "tag": "TG@ZDYZ2-JP-Tokyo9",
-      "server": "45.143.234.170",
-      "server_port": 12025,
+      "server": "54.92.17.121",
+      "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -1387,8 +1380,8 @@
     },
     {
       "tag": "TG@ZDYZ2-JP-Tokyo11",
-      "server": "38.207.130.33",
-      "server_port": 55045,
+      "server": "3.112.21.102",
+      "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -1411,8 +1404,8 @@
     },
     {
       "tag": "TG@ZDYZ2-JP-Tokyo12",
-      "server": "154.40.52.89",
-      "server_port": 57980,
+      "server": "35.77.126.144",
+      "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -1675,8 +1668,8 @@
     },
     {
       "tag": "TG@ZDYZ2-US-Seattle",
-      "server": "154.17.26.212",
-      "server_port": 8007,
+      "server": "74.120.171.29",
+      "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -1795,8 +1788,8 @@
     },
     {
       "tag": "TG@ZDYZ2-SG-Singapore2",
-      "server": "13.229.90.43",
-      "server_port": 2086,
+      "server": "38.180.190.136",
+      "server_port": 8443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -1867,8 +1860,8 @@
     },
     {
       "tag": "TG@ZDYZ2-SG-Singapore5",
-      "server": "47.237.125.8",
-      "server_port": 2053,
+      "server": "185.81.28.50",
+      "server_port": 34237,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -1915,8 +1908,8 @@
     },
     {
       "tag": "TG@ZDYZ2-SG-Singapore7",
-      "server": "18.136.150.190",
-      "server_port": 8548,
+      "server": "52.74.34.116",
+      "server_port": 39001,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
       "packet_encoding": "xudp",
@@ -2203,7 +2196,7 @@
     },
     {
       "tag": "TG@ZDYZ2-加拿大🇨🇦",
-      "server": "51.222.136.86",
+      "server": "198.23.223.178",
       "server_port": 2053,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2466,55 +2459,7 @@
       }
     },
     {
-      "tag": "TG@ZDYZ2-泰国🇹🇭2",
-      "server": "8.213.208.6",
-      "server_port": 80,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "TG@ZDYZ2-印度🇮🇳",
-      "server": "43.205.88.216",
-      "server_port": 34237,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "TG@ZDYZ2-97",
+      "tag": "TG@ZDYZ2-95",
       "server": "188.42.88.66",
       "server_port": 2053,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
@@ -2538,7 +2483,7 @@
       }
     },
     {
-      "tag": "TG@ZDYZ2-98",
+      "tag": "TG@ZDYZ2-96",
       "server": "205.233.181.36",
       "server_port": 2053,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
@@ -2563,7 +2508,7 @@
     },
     {
       "tag": "CMCC",
-      "server": "104.16.40.69",
+      "server": "104.19.157.175",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2586,8 +2531,8 @@
       }
     },
     {
-      "tag": "CMCC-100",
-      "server": "104.17.212.150",
+      "tag": "CMCC-98",
+      "server": "104.16.205.95",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2610,128 +2555,8 @@
       }
     },
     {
-      "tag": "CMCC-101",
-      "server": "104.17.189.27",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CMCC-102",
-      "server": "104.17.185.246",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CMCC-103",
-      "server": "104.17.211.178",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CMCC-104",
-      "server": "104.17.177.238",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CMCC-105",
-      "server": "104.17.209.113",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CMCC-106",
-      "server": "104.16.156.196",
+      "tag": "CMCC-99",
+      "server": "104.17.188.57",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2755,7 +2580,7 @@
     },
     {
       "tag": "CT",
-      "server": "45.159.218.21",
+      "server": "205.233.181.83",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2778,8 +2603,8 @@
       }
     },
     {
-      "tag": "CT-108",
-      "server": "205.233.181.195",
+      "tag": "CT-101",
+      "server": "103.160.204.51",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2802,8 +2627,8 @@
       }
     },
     {
-      "tag": "CT-109",
-      "server": "45.159.218.149",
+      "tag": "CT-102",
+      "server": "205.233.181.136",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2826,8 +2651,8 @@
       }
     },
     {
-      "tag": "CT-110",
-      "server": "103.160.204.58",
+      "tag": "CT-103",
+      "server": "205.233.181.15",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2850,8 +2675,8 @@
       }
     },
     {
-      "tag": "CT-111",
-      "server": "103.169.142.252",
+      "tag": "CT-104",
+      "server": "103.160.204.73",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2874,8 +2699,8 @@
       }
     },
     {
-      "tag": "CT-112",
-      "server": "45.159.218.15",
+      "tag": "CT-105",
+      "server": "103.169.142.151",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2898,8 +2723,8 @@
       }
     },
     {
-      "tag": "CT-113",
-      "server": "45.159.218.181",
+      "tag": "CT-106",
+      "server": "103.160.204.61",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2922,8 +2747,8 @@
       }
     },
     {
-      "tag": "CT-114",
-      "server": "45.159.218.99",
+      "tag": "CT-107",
+      "server": "45.159.218.25",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
