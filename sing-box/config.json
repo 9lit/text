@@ -61,7 +61,7 @@
     "final": "dns_google"
   },
   "ntp": {
-    "enabled": true,
+    "enabled": false,
     "server": "time.apple.com",
     "server_port": 123,
     "interval": "30m0s",
