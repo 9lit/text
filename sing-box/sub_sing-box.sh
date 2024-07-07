@@ -3,7 +3,7 @@
 # 设置变量
 HOME=$(dirname "$(realpath -es "$0")")
 TEMPLATE_FILE=http://text.1210923.xyz/sing-box/template.json
-CONFIG_FILE="${HOME}/config.json"
+CONFIG_FILE=/home/kuma/singbox_config.json
 SUB_FILE=https://sub.tgzdyz2.xyz/sub
 GITHUB_PATH=$1
 
@@ -92,7 +92,10 @@ function GetSubParam() {
 function UploadGithub() {
   # 将输出的 sing-box 配置文件上传到 github 仓库中
   cd $GITHUB_PATH && git pull
-  cp $CONFIG_FILE $GITHUB_PATH/sing-box && git add . && git commit -am "更新 sing-box 配置文件" && git push
+  # 将已生成的配置, 输入到 config.json 文件中
+  echo "$config" > $GITHUB_PATH/sing-box/config.json
+  # 更新 GitHub
+  git add . && git commit -am "更新 sing-box 配置文件" && git push
 }
 
 config=$(curl $TEMPLATE_FILE) && Contextencode
@@ -107,6 +110,8 @@ for link in ${links[@]}; do
 done
 
 # 输出配置文件
-echo "$config" > $CONFIG_FILE
-
-if [ $upload_flag -eq 0 ]; then UploadGithub; fi
+if [ $upload_flag -eq 0 ]; then 
+  UploadGithub
+else 
+  echo "$config" > $CONFIG_FILE
+fi
