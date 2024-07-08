@@ -180,14 +180,16 @@
         "CMCC",
         "CMCC-98",
         "CMCC-99",
+        "CMCC-100",
+        "CMCC-101",
         "CT",
-        "CT-101",
-        "CT-102",
         "CT-103",
         "CT-104",
         "CT-105",
         "CT-106",
-        "CT-107"
+        "CT-107",
+        "CT-108",
+        "CT-109"
       ]
     },
     {
@@ -2508,7 +2510,7 @@
     },
     {
       "tag": "CMCC",
-      "server": "104.16.205.95",
+      "server": "104.19.38.209",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2532,7 +2534,7 @@
     },
     {
       "tag": "CMCC-98",
-      "server": "104.19.157.175",
+      "server": "104.17.172.154",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2556,7 +2558,55 @@
     },
     {
       "tag": "CMCC-99",
-      "server": "104.17.188.57",
+      "server": "104.17.185.156",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "type": "vless",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "cfed.tgzdyz2.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TG@ZDYZ2?ed=2560",
+        "headers": {
+          "Host": "cfed.tgzdyz2.top"
+        }
+      }
+    },
+    {
+      "tag": "CMCC-100",
+      "server": "104.19.123.178",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "type": "vless",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "cfed.tgzdyz2.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TG@ZDYZ2?ed=2560",
+        "headers": {
+          "Host": "cfed.tgzdyz2.top"
+        }
+      }
+    },
+    {
+      "tag": "CMCC-101",
+      "server": "104.17.97.100",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2580,55 +2630,7 @@
     },
     {
       "tag": "CT",
-      "server": "205.233.181.136",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CT-101",
-      "server": "205.233.181.15",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CT-102",
-      "server": "103.169.142.202",
+      "server": "103.160.204.172",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2652,7 +2654,7 @@
     },
     {
       "tag": "CT-103",
-      "server": "103.169.142.73",
+      "server": "45.159.218.100",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2676,7 +2678,7 @@
     },
     {
       "tag": "CT-104",
-      "server": "45.159.218.215",
+      "server": "205.233.181.170",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2700,7 +2702,7 @@
     },
     {
       "tag": "CT-105",
-      "server": "103.160.204.73",
+      "server": "45.159.218.159",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2724,7 +2726,7 @@
     },
     {
       "tag": "CT-106",
-      "server": "205.233.181.214",
+      "server": "45.159.218.98",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2748,7 +2750,55 @@
     },
     {
       "tag": "CT-107",
-      "server": "103.169.142.253",
+      "server": "103.169.142.207",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "type": "vless",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "cfed.tgzdyz2.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TG@ZDYZ2?ed=2560",
+        "headers": {
+          "Host": "cfed.tgzdyz2.top"
+        }
+      }
+    },
+    {
+      "tag": "CT-108",
+      "server": "205.233.181.75",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "type": "vless",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "cfed.tgzdyz2.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TG@ZDYZ2?ed=2560",
+        "headers": {
+          "Host": "cfed.tgzdyz2.top"
+        }
+      }
+    },
+    {
+      "tag": "CT-109",
+      "server": "45.159.218.25",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2790,7 +2840,10 @@
         "outbound": "direct"
       },
       {
-        "process_name": "OneDrive.exe",
+        "process_name": [
+          "OneDrive.exe",
+          "ssh.exe"
+        ],
         "outbound": "direct"
       },
       {
@@ -2800,6 +2853,11 @@
           "192.210.142.60"
         ],
         "outbound": "direct"
+      },
+      {
+        "domain_suffix": [
+          "cloudflare.com"
+        ]
       },
       {
         "rule_set": [
