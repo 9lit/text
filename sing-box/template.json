@@ -117,7 +117,10 @@
         "outbound": "direct"
       },
       {
-        "process_name": "OneDrive.exe",
+        "process_name": [
+          "OneDrive.exe",
+          "ssh.exe"
+        ],
         "outbound": "direct"
       },
       {
@@ -127,6 +130,11 @@
             "192.210.142.60"
         ],
         "outbound": "direct"
+      },
+      {
+        "domain_suffix": [
+          "cloudflare.com"
+        ]
       },
       {
         "rule_set": [
