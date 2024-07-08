@@ -2857,7 +2857,8 @@
       {
         "domain_suffix": [
           "cloudflare.com"
-        ]
+        ],
+        "outbound": "direct"
       },
       {
         "rule_set": [
