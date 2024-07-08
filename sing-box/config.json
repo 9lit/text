@@ -180,16 +180,14 @@
         "CMCC",
         "CMCC-98",
         "CMCC-99",
-        "CMCC-100",
-        "CMCC-101",
         "CT",
+        "CT-101",
+        "CT-102",
         "CT-103",
         "CT-104",
         "CT-105",
         "CT-106",
-        "CT-107",
-        "CT-108",
-        "CT-109"
+        "CT-107"
       ]
     },
     {
@@ -2510,7 +2508,7 @@
     },
     {
       "tag": "CMCC",
-      "server": "104.19.38.209",
+      "server": "104.16.212.56",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2534,7 +2532,7 @@
     },
     {
       "tag": "CMCC-98",
-      "server": "104.17.172.154",
+      "server": "104.16.207.85",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2558,55 +2556,7 @@
     },
     {
       "tag": "CMCC-99",
-      "server": "104.17.185.156",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CMCC-100",
-      "server": "104.19.123.178",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CMCC-101",
-      "server": "104.17.97.100",
+      "server": "104.19.147.197",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2630,7 +2580,7 @@
     },
     {
       "tag": "CT",
-      "server": "103.160.204.172",
+      "server": "103.160.204.198",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2653,8 +2603,8 @@
       }
     },
     {
-      "tag": "CT-103",
-      "server": "45.159.218.100",
+      "tag": "CT-101",
+      "server": "103.160.204.182",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
@@ -2677,55 +2627,7 @@
       }
     },
     {
-      "tag": "CT-104",
-      "server": "205.233.181.170",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CT-105",
-      "server": "45.159.218.159",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CT-106",
+      "tag": "CT-102",
       "server": "45.159.218.98",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
@@ -2749,31 +2651,7 @@
       }
     },
     {
-      "tag": "CT-107",
-      "server": "103.169.142.207",
-      "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "type": "vless",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cfed.tgzdyz2.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TG@ZDYZ2?ed=2560",
-        "headers": {
-          "Host": "cfed.tgzdyz2.top"
-        }
-      }
-    },
-    {
-      "tag": "CT-108",
+      "tag": "CT-103",
       "server": "205.233.181.75",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
@@ -2797,8 +2675,80 @@
       }
     },
     {
-      "tag": "CT-109",
-      "server": "45.159.218.25",
+      "tag": "CT-104",
+      "server": "205.233.181.242",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "type": "vless",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "cfed.tgzdyz2.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TG@ZDYZ2?ed=2560",
+        "headers": {
+          "Host": "cfed.tgzdyz2.top"
+        }
+      }
+    },
+    {
+      "tag": "CT-105",
+      "server": "45.159.218.228",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "type": "vless",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "cfed.tgzdyz2.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TG@ZDYZ2?ed=2560",
+        "headers": {
+          "Host": "cfed.tgzdyz2.top"
+        }
+      }
+    },
+    {
+      "tag": "CT-106",
+      "server": "205.233.181.233",
+      "server_port": 443,
+      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
+      "type": "vless",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "cfed.tgzdyz2.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/TG@ZDYZ2?ed=2560",
+        "headers": {
+          "Host": "cfed.tgzdyz2.top"
+        }
+      }
+    },
+    {
+      "tag": "CT-107",
+      "server": "103.169.142.113",
       "server_port": 443,
       "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
       "type": "vless",
