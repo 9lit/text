@@ -125,15 +125,14 @@
       },
       {
         "domain": [
-            "dav.1210923.xyz",
-            "www.1210923.xyz",
             "192.210.142.60"
         ],
         "outbound": "direct"
       },
       {
         "domain_suffix": [
-          "cloudflare.com"
+          "cloudflare.com",
+          "1210923.xyz"
         ],
         "outbound": "direct"
       },
