@@ -3,7 +3,7 @@
 # 设置全局变量
 ## 基础路径配置
 URL="http://text.1210923.xyz/aria2"
-GITHUB="https://github.com/xiongJum/aria2.conf.git"
+GITHUB="https://github.com/9lit/aria2.conf.git"
 
 ARIA2_CONFIG_PATH="/etc/aria2"
 ARIA2_CONFIG="${ARIA2_CONFIG_PATH}/aria2.conf"
