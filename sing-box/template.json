@@ -132,7 +132,9 @@
       {
         "domain_suffix": [
           "cloudflare.com",
-          "1210923.xyz"
+          "1210923.xyz",
+          "outlook.live.vom"
+          "outlook.com"
         ],
         "outbound": "direct"
       },
