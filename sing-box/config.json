@@ -2789,7 +2789,8 @@
       {
         "rule_set": [
           "geosite-microsoft@cn",
-          "apnic_ipv4_cn"
+          "apnic_ipv4_cn",
+          "geosite-cn"
         ],
         "outbound": "direct"
       }
